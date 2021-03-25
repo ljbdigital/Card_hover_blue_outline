@@ -1,3 +1,6 @@
+:root {
+    --duration: 0.4s;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +19,7 @@
     padding: 10px 50px;
     font-family: poppins, sans-serif;
     cursor: pointer;
-    transition: border-radius ease-out 0.4s, ease-out transform 0.4s;
+    transition: border-radius ease-out var(--duration), transform ease-out var(--duration);
 }
 .card h1 {
     font-size: 28px;
